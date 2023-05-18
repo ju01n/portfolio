@@ -1,0 +1,15 @@
+@import './abstracts/mixins';
+@import './abstracts/animaion';
+
+@import './vendor/swiper';
+
+@import './base/typo';
+@import './base/reset';
+@import './base/preset';
+
+@import './components/text';
+
+@import './layout/header';
+@import './layout/footer';
+
+@import './pages/home';

@@ -1,0 +1,31 @@
+body{
+    font-size: 14px;
+    line-height: 1.25em;
+    font-family: 'helvetica',sans-serif;
+}
+
+.content {
+    padding-top: 83px;
+    line-height: 1.25em;
+    min-height: 800px;
+    & hr {
+        display: block;
+        height: 6px;
+        margin: 0;
+        border: none;
+        background: #eee;
+    }
+}
+/* 텍스트 블라인드 */
+.blind {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+}
+
+.hr02{
+    
+}

@@ -1,0 +1,89 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 75px;
+    line-height: 75px;
+    z-index: 999;
+    width: 100%;
+    .inner {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        position: relative;
+        justify-content: space-between;
+    }
+    .logo {
+        background: url("../images/main-logo.svg") no-repeat center/contain;
+        width: 175px;
+        height: 34px;
+        a {
+            display: block;
+            height: 100%;
+        }
+    }
+    .gnb {
+        .gnb-list {
+            .gnb-item {
+                font-weight: bold;
+                font-size: 19px;
+                line-height: 75px;
+                display: inline-block;
+                vertical-align: top;
+                margin-right: 30px;
+                a {
+                    color: #fff;
+                }
+                &:hover {
+                    transform: skew(-20deg);
+                }
+            }
+        }
+    }
+    .menu {
+        font-size: 19px;
+        font-weight: bold;
+        z-index: 200;
+        .kor {
+            position: relative;
+            margin-right: 15px;
+            padding-right: 15px;
+            color: #fff;
+            &::after {
+                content: '';
+                position: absolute;
+                right: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                background-color: #707070;
+                width: 1px;
+                height: 50%;
+            }
+        }
+        .eng {
+            opacity: 0.5;
+            color: #fff;
+        }
+    }
+
+    //스크롤 시 로고 색상 변경
+    .active {
+        .logo {
+            filter:invert(1)
+        }
+        .gnb{
+            .gnb-item{
+                a{color:#000;}
+            }
+        }
+        .menu {
+            .kor {
+                color: #000;
+            }
+            .eng {
+                color: #000;
+                opacity: 0.5;
+            }
+        }
+    }}

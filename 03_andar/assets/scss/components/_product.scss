@@ -1,0 +1,80 @@
+.prd-list {
+    display: flex;
+
+    .prd-layout01 & {
+        flex-wrap: wrap;
+        gap: 10px;
+        .prd-item {
+            padding-bottom: 50px;
+            width: calc(50% - 5px);
+        }
+    }
+    .prd-layout02 & {
+        display: block;
+        padding: 0 16px;
+        .prd-item {
+            .product-area {
+                position: relative;
+                padding: 20px 0;
+                width: 100%;
+                height: 100%;
+                display: flex;
+            }
+            .img-box {
+                max-width: 110px;
+                margin: 0;
+                img {
+                    vertical-align: top;
+                    min-width: 100%;
+                    max-width: 100%;
+                }
+            }
+            .prd-info {
+                padding: 0 28px;
+                width: calc(100% - 88px);
+            }
+            &.top::after {
+                content: '';
+                width: 100%;
+                height: 1px;
+                background: #eee;
+                display: inline-block;
+            }
+        }
+
+    }
+}
+
+.group-flex02 {
+    position: relative;
+    .title {
+        display: inline-block;
+        padding: 30px 0;
+        font-size: 20px;
+        line-height: 24px;
+        color: #333;
+        font-weight: 700;
+        position: relative;
+    }
+
+    .btn-look {
+        position: absolute;
+        top: 35px;
+        right: 20px;
+        a {
+            font-size: 14px;
+            vertical-align: middle;
+        }
+        &::after {
+            width: 15px;
+            height: 11px;
+            margin-left: 3px;
+            margin-bottom: 2px;
+            background: url("/assets/images/ic-arrow-next.png") no-repeat center/contain;
+            background-position: center;
+            content: '';
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
+}

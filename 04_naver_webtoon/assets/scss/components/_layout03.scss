@@ -1,0 +1,86 @@
+.layout03 {
+    position: relative;
+    padding: 19px 0 20px;
+    .part {
+        display: inline-block;
+        padding-bottom: 10px;
+    }
+    .pagination{
+        position: absolute;
+        top: 21px;
+        width: auto;
+        height: auto;
+        left: auto;
+        right: 20px;
+        color:#cccccc;
+    }
+    .swiper-pagination-current{
+        color: #000;
+    }
+    .intro-list {
+        padding-left: 16px;
+        .intro-item {
+            a {
+                position: relative;
+                .img-box {
+                    position: absolute;
+                    overflow: hidden;
+                    width: 111px;
+                    height: 111px;
+                    -webkit-border-radius: 2px;
+                    border-radius: 2px;
+                    img {
+                        position: absolute;
+                        top: 0;
+                        bottom: 0;
+                        left: -10%;
+                        right: -10%;
+                        width: auto;
+                        height: 100%;
+                        margin: auto;
+
+                    }
+                }
+            }
+            .info-area {
+                overflow: hidden;
+                display: block;
+                height: 111px;
+                padding: 11px 16px 0 129px;
+                box-sizing: border-box;
+                width: 100%;
+                .title {
+                    padding-left: 0;
+                    font-weight: 400;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    display: block;
+                    font-size: 16px;
+                    line-height: 20px;
+                    @include elip;
+                    font-weight: 400;
+                }
+                .writer {
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    display: block;
+                    margin-top: 3px;
+                    font-size: 13px;
+                    line-height: 15px;
+                    color: #999;
+                }
+                .desc {
+                    padding-right: 16px;
+                    display: -webkit-box;
+                    overflow: hidden;
+                    margin-top: 13px;
+                    font-size: 13px;
+                    line-height: 19px;
+                    color: #4c4c4c;
+                    @include elip-multi(2, 19px)
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.logo a,
+.btn-search,
+.link-mypage,
+.business-title a::after,
+.footer .copy a,
+.btn-look a::before,
+.score::before,
+.pagination .btn::before
+{
+    background-image: url("../images/sp-01.png");
+    background-size: 330px 312px;
+    background-repeat: no-repeat;
+}
+
+.up{
+    background-image: url("../images/sp-02.png");
+    background-size: 136px 124px;
+    background-repeat: no-repeat;}

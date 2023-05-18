@@ -1,0 +1,141 @@
+body {
+    font-size: 13px;
+    color: #333;
+    line-height: 1.2em;
+    letter-spacing: -0.05em;
+    width: 100%;
+    font-family: 'gilroy','noto';
+    &.overflow-h {
+        overflow: hidden;
+        .dimm {
+            display: block;
+        }
+    }
+}
+
+// 텍스트 블라인드
+.blind {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    margin: -1px;
+}
+
+.mark {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #ee5728;
+    display: inline-block;
+    content: '';
+}
+
+//텍스트 효과
+.sc-title {
+    padding: 50px 16px 22px;
+    font-size: 20px;
+    line-height: 29px;
+    color: #333;
+    letter-spacing: -0.05em;
+    font-weight: 700;
+}
+
+.prd-info {
+    padding: 15px 5% 0;
+    text-align: left;
+
+    .name {
+        width: 100%;
+        padding: 10px 0;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: -0.05em;
+        line-height: 17px;
+    }
+    .prc-per {
+        color: #8E1F29;
+        font-weight: 500;
+        margin-right: 5px;
+        vertical-align: top;
+        font-weight: bold;
+    }
+    .prc-curr {
+        padding: 0;
+        font-size: 15px;
+        line-height: 16px;
+        font-weight: 500;
+        letter-spacing: -0.03em;
+        vertical-align: top;
+    }
+    .prc-ori {
+        font-size: 13px;
+        line-height: 18px;
+        font-weight: 400;
+        color: #8d8d8d;
+        margin-left: 5px;
+        text-decoration: line-through;
+    }
+    .color {
+        font-size: 13px;
+        line-height: 11px;
+        letter-spacing: -0.05em;
+        color: #999;
+        font-weight: 500;
+        padding-top: 9px;
+        display: block;
+        width: 100%;
+    }
+    .way {
+        margin-top: 10px;
+        display: inline-block;
+        border: 1px solid rgba(142,31,41,0.5);
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 5px 6px;
+        line-height: 1;
+        color: #8e1f28;
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+}
+
+.review {
+    width: 100%;
+    line-height: 13px;
+    font-weight: 400;
+    color: #8e1f29;
+    font-size: 13px;
+    font-weight: bold;
+}
+.btn-more {
+    padding: 0 38px;
+    box-sizing: border-box;
+    margin: 0 auto 65px;
+    a {
+        display: block;
+        width: 100%;
+        height: 52px;
+        line-height: 52px;
+        border: 1px solid #e0e0e0;
+        box-sizing: border-box;
+        background: #fff;
+        font-size: 15px;
+        color: #222;
+        font-weight: 500;
+        text-align: center;
+    }
+}
+
+//bar
+.bar {
+    width: 1px;
+    height: 10px;
+    background: #ccc;
+    margin: 0 10px;
+    content: '';
+    display: inline-block;
+
+}
