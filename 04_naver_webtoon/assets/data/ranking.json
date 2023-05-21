@@ -1,0 +1,284 @@
+{
+    "ageGenderRanking":[
+        {
+            "rank":1,
+            "img":"./assets/images/rank-thumb01.jpg",
+            "title":"독립일기",
+            "writer":"자까",
+            "cate":"10대여자"
+        },
+        {
+            "rank":2,
+            "img":"./assets/images/rank-thumb02.jpg",
+            "title":"노답소녀",
+            "writer":"석우",
+            "cate":"10대여자"
+        },
+        {
+            "rank":3,
+            "img":"./assets/images/rank-thumb03.jpg",
+            "title":"이상한 변호사 우영우",
+            "writer":"유일 / 화음조,이예지",
+            "cate":"10대여자"
+        },
+        {
+            "rank":4,
+            "img":"./assets/images/rank-thumb04.jpg",
+            "title":"버려진 나의 최애를 위하여",
+            "writer":"류호 / 기묭 / 김선유",
+            "cate":"10대여자"
+        },
+        {
+            "rank":5,
+            "img":"./assets/images/rank-thumb05.jpg",
+            "title":"하드캐리",
+            "writer":"조양",
+            "cate":"10대여자"
+        },
+        {
+            "rank":1,
+            "img":"./assets/images/rank-thumb06.jpg",
+            "title":"현실퀘스트",
+            "writer":"이주운 / 태성",
+            "cate":"10대남자"
+        },
+        {
+            "rank":2,
+            "img":"./assets/images/rank-thumb07.jpg",
+            "title":"나 혼자 네크로맨서",
+            "writer":"김경열 / 김동준 / 지점장",
+            "cate":"10대남자"
+        },
+        {
+            "rank":3,
+            "img":"./assets/images/rank-thumb08.jpg",
+            "title":"회귀한 천재 헌터의 슬기로운 청소생활",
+            "writer":"고일고일 /달비트",
+            "cate":"10대남자"
+        },
+        {
+            "rank":4,
+            "img":"./assets/images/rank-thumb09.jpg",
+            "title":"던전 씹어먹는 아티팩트",
+            "writer":"엄키 / 제로워터",
+            "cate":"10대남자"
+        },
+        {
+            "rank":5,
+            "img":"./assets/images/rank-thumb05.jpg",
+            "title":"하드캐리",
+            "writer":"조양",
+            "cate":"10대남자"
+        },
+
+
+
+
+        {
+            "rank":1,
+            "img":"./assets/images/rank-thumb01.jpg",
+            "title":"독립일기",
+            "writer":"자까",
+            "cate":"20대여자"
+        },
+        {
+            "rank":2,
+            "img":"./assets/images/rank-thumb03.jpg",
+            "title":"이상한 변호사 우영우",
+            "writer":"유일 / 화음조,이예지",
+            "cate":"20대여자"
+        },
+        {
+            "rank":3,
+            "img":"./assets/images/rank-thumb02.jpg",
+            "title":"노답소녀",
+            "writer":"석우",
+            "cate":"20대여자"
+        },
+        {
+            "rank":4,
+            "img":"./assets/images/rank-thumb04.jpg",
+            "title":"버려진 나의 최애를 위하여",
+            "writer":"류호 / 기묭 / 김선유",
+            "cate":"20대여자"
+        },
+        {
+            "rank":5,
+            "img":"./assets/images/rank-thumb11.jpg",
+            "title":"호랑신랑뎐",
+            "writer":"고추참치",
+            "cate":"20대여자"
+        },
+
+
+
+        {
+            "rank":1,
+            "img":"./assets/images/rank-thumb06.jpg",
+            "title":"현실퀘스트",
+            "writer":"이주운 / 태성",
+            "cate":"20대남자"
+        },
+        {
+            "rank":2,
+            "img":"./assets/images/rank-thumb12.jpg",
+            "title":"나노마신",
+            "writer":"현절무 / 금강불괴 / 한중월야",
+            "cate":"20대남자"
+        },
+        {
+            "rank":3,
+            "img":"./assets/images/rank-thumb13.jpg",
+            "title":"천마육성",
+            "writer":"광휘 / 조형근",
+            "cate":"20대남자"
+        },
+        {
+            "rank":4,
+            "img":"./assets/images/rank-thumb07.jpg",
+            "title":"나 혼자 네크로맨서",
+            "writer":"김경열 / 김동준 / 지점장",
+            "cate":"20대남자"
+        },
+        {
+            "rank":5,
+            "img":"./assets/images/rank-thumb08.jpg",
+            "title":"회귀한 천재 헌터의 슬기로운 청소생활",
+            "writer":"고일고일 / 달비트",
+            "cate":"20대남자"
+        },
+
+
+        {
+            "rank":1,
+            "img":"./assets/images/rank-thumb04.jpg",
+            "title":"버려진 나의 최애를 위하여",
+            "writer":"류호 / 기묭 / 김선유",
+            "cate":"30대여자"
+        },
+        {
+            "rank":2,
+            "img":"./assets/images/rank-thumb11.jpg",
+            "title":"호랑신랑뎐",
+            "writer":"고추참치",
+            "cate":"30대여자"
+        },
+        {
+            "rank":3,
+            "img":"./assets/images/rank-thumb14.jpg",
+            "title":"남편을 죽여줘요",
+            "writer":"이연, 칸트웍스 / 구물",
+            "cate":"30대여자"
+        },
+        {
+            "rank":4,
+            "img":"./assets/images/rank-thumb15.jpg",
+            "title":"불편한 관계",
+            "writer":"잔스",
+            "cate":"30대여자"
+        },
+        {
+            "rank":5,
+            "img":"./assets/images/rank-thumb16.jpg",
+            "title":"완벽한 결혼의 정석",
+            "writer":"영 / 제리볼 / 이범배",
+            "cate":"30대여자"
+        },
+
+
+        {
+            "rank":1,
+            "img":"./assets/images/rank-thumb12.jpg",
+            "title":"나노마신",
+            "writer":"현절무 / 금강불괴 / 한중월야",
+            "cate":"30대남자"
+        },
+        {
+            "rank":2,
+            "img":"./assets/images/rank-thumb13.jpg",
+            "title":"천마육성",
+            "writer":"광휘 / 조형근",
+            "cate":"30대남자"
+        },
+        {
+            "rank":3,
+            "img":"./assets/images/rank-thumb17.jpg",
+            "title":"무사만리행",
+            "writer":"운 / 배민기",
+            "cate":"30대남자"
+        },
+        {
+            "rank":4,
+            "img":"./assets/images/rank-thumb18.jpg",
+            "title":"김부장",
+            "writer":"박태준 만화회사 / 정종택",
+            "cate":"30대남자"
+        },
+        {
+            "rank":5,
+            "img":"./assets/images/rank-thumb19.jpg",
+            "title":"헬퍼 2 : 킬베로스",
+            "writer":"삭",
+            "cate":"30대남자"
+        }],
+        "finishItem": [
+            {
+                "img": "./assets/images/finish01.jpg",
+                "title": "힙한남자",
+                "writer": "혜니",
+                "like": "관심 50만+"
+            }, {
+                "img": "./assets/images/finish02.jpg",
+                "title": "하드캐리",
+                "writer": "조양",
+                "like": "관심 10만+"
+            }, {
+                "img": "./assets/images/finish03.jpg",
+                "title": "라면 대통령",
+                "writer": "명랑 / 신얼",
+                "like": "관심 1천+"
+            }, {
+                "img": "./assets/images/finish04.jpg",
+                "title": "왕따협상",
+                "writer": "아리아리",
+                "like": "관심 5만+"
+            }, {
+                "img": "./assets/images/finish05.jpg",
+                "title": "100억의 주인",
+                "writer": "맛기니 / 텅빈",
+                "like": "관심 1천+"
+            }, {
+                "img": "./assets/images/finish06.jpg",
+                "title": "모락모락 왕세자님",
+                "writer": "원해",
+                "like": "관심 10만+"
+            }
+        ],
+        "recentFinish":[
+            {
+                "img":"./assets/images/sc-monthly-new.jpg",
+                "title":"이상한 변호사 우영우",
+                "writer":"유일 / 화음조,이예지",
+                "desc":"한국대 로스쿨 수석 졸업에, 변호사 시험 성적 1,500점 이상! 국내 업계 2위 법무법인 한바다의 인턴 변호사가 된 우영우.  영우는 자신의 능력을 증명해내고 '진짜 변호사'가 될 수 있을까?"
+            },
+            {
+                "img":"./assets/images/recentFinish2.jpg",
+                "title":"꼬드보",
+                "writer":"뚜부",
+                "desc":"5년 사귄 여자친구가 이별을 고하고 프랑스로 떠나버렸다!<br>불어는 1도 모른 채 전여친을 쫒아 무작정 프랑스로 향한 기운찬, 그곳에서 소매치기 당하는 여자 '김남주'를 구해내지만, 그녀의 남자친구가 다른 여자와 키스하는 것을 같이 보고 말았다."
+            },
+            {
+                "img":"./assets/images/recentFinish3.jpg",
+                "title":"다꾸남",
+                "writer":"코츠",
+                "desc":"다부진 체격에 무뚝뚝한 체대생 강연우.<br>그에게는 비밀이 있었는데, 그건 바로 예쁘고 귀여운 것을 좋아한다는 것이다. 그런 그의 취미는 바로 다이어리 꾸미기(다꾸)!  "
+            },
+            {
+                "img":"./assets/images/recentFinish4.jpg",
+                "title":"더 게이머",
+                "writer":"성상영 / 상아",
+                "desc":"이유도 모른 채 현실이 게임처럼 뒤바뀐다면 어떻게 될까? <br> 레벨이 오르고, 스테이터스를 올릴 수 있다면?<br> 게임이 되어 버린 현실 속 모험기!"
+            }
+    
+        ]
+}

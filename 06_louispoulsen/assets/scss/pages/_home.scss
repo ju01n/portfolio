@@ -1,0 +1,717 @@
+.sc-intro {
+    padding: 83px 10px 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    .intro-txt {
+        overflow: hidden;
+        display: block;
+        margin: 0 auto;
+        @include tablet {
+            margin-left: -1vw;
+        }
+        .bold {
+            font-size: 11vw;
+            margin-top: 1.7vw;
+            margin-left: 7px;
+            letter-spacing: -0.01em;
+            @include tablet {
+                display: block;
+                font-size: 14vw;
+                line-height: 1;
+                text-align: center;
+                letter-spacing: -0.1em;
+                margin-top: -1vw;
+            }
+            > span {
+                @include mobile {
+                    display: block;
+                    margin-top: -3vw;
+                }
+            }
+        }
+    }
+    .intro-sub {
+        display: block;
+        padding: 0 10px;
+        .copy {
+            @include tablet {
+                text-align: center;
+                display: block;
+            }
+        }
+    }
+}
+
+// sc-visual
+.sc-visual {
+    padding: 0 10px;
+    margin-top: 2vw;
+    .img-box {
+        transform: scale(.7);
+        animation: appear 1.4s cubic-bezier(.12,.75,.4,1);
+        animation-fill-mode: forwards;
+        padding: 0 10px;
+
+        img {
+            object-fit: cover;
+            height: 60vw;
+            width: 100%;
+            background-size: cover;
+            @include tablet {}
+        }
+    }
+    .visual-txt {
+        position: relative;
+        z-index: 20;
+        margin-top: -17vw;
+        margin-bottom: 20px;
+        @include tablet {
+            margin-top: -7vw;
+        }
+        .normal {
+            display: block;
+            overflow: hidden;
+            font-size: 11vw;
+            &.txt1 {
+                line-height: 1.2;
+                margin-left: 22vw;
+                @include mobile {
+                    margin-left: 24vw;
+                }
+            }
+            &.txt2 {
+                margin-top: -4vw;
+                margin-left: 30vw;
+                @include mobile {
+                    margin-top: -2vw;
+                    margin-left: 4vw;
+                }
+            }
+            @include mobile {
+                font-size: 45px;
+                line-height: 45px;
+            }
+        }
+        .bold {
+            overflow: hidden;
+            display: block;
+            font-size: 9vw;
+            line-height: 1.3;
+
+            &.txt3 {
+                margin-top: -3.5vw;
+                margin-left: 8vw;
+                @include mobile {
+                    display: block;
+                    margin-left: 20vw;
+                    margin-top: -2vw;
+                }
+
+            }
+            &.txt4 {
+                margin-top: -4vw;
+                margin-left: 18vw;
+                @include mobile {
+                    margin-top: -3vw;
+                }
+            }
+            &.txt5 {
+                margin-top: -2.8vw;
+                margin-left: 26vw;
+                @include mobile {
+                    margin-top: -2vw;
+                }
+            }
+        }
+    }
+}
+// ******** sc-visual
+
+//sc-introduce
+.sc-introduce {
+    position: relative;
+    padding: 0 20px;
+    .group-column01 {
+        display: flex;
+        margin-bottom: 20px;
+        @include tablet {
+            width: 100%;
+        }
+        .area {
+            height: 28vw;
+            width: 42%;
+            flex-shrink: 0;
+            @include br-r;
+            @include tablet {
+                display: none;
+            }
+        }
+        .img-thumb {
+            scale: 0.5;
+            opacity: 0;
+            height: 28vw;
+            overflow: hidden;
+            width: 25%;
+            margin: 0 10px 0 20px;
+            @include tablet {
+                width: 50%;
+                height: 80vw;
+                margin: 0 10px 30px;
+            }
+            @include mobile {
+                margin-bottom: 0;
+            }
+
+            &.img2 {
+                background: url("../images/sc-int02.png") no-repeat center;
+                background-size: cover;
+                width: 33%;
+                height: 20vw;
+                margin: 0 0 0 10px;
+                @include tablet {
+                    width: 50%;
+                    margin-bottom: 30px;
+                    height: 60vw;
+                }
+            }
+            img {
+                width: 100%;
+                height: 120%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .group-column02 {
+        display: flex;
+        flex-shrink: 0;
+        margin-bottom: 20px;
+        @include tablet {
+            display: block;
+        }
+        .title {
+            width: 42%;
+            flex-shrink: 0;
+            @include br-r;
+            @include tablet {
+                padding-left: 10px;
+                width: 100%;
+                margin-bottom: 30px;
+            }
+            @include mobile {
+                margin-bottom: 20px;
+                border: none;
+            }
+        }
+        .desc-area {
+            width: 25%;
+            margin-left: 20px;
+            box-sizing: border-box;
+            @include tablet {
+                width: 75%;
+                display: block;
+            }
+            .desc {
+                font-size: 1.2vw;
+                line-height: 1.3;
+                text-transform: uppercase;
+                letter-spacing: -0.03em;
+                @include tablet {
+                    font-size: 18px;
+                    line-height: 24px;
+                    margin-bottom: 24px;
+                    margin-left: -10px;
+                }
+                @include mobile {
+                    font-size: 12.6px;
+                    line-height: 16.8px;
+                    width: 100%;
+                }
+
+            }
+        }
+        .btn-link {
+            display: inline-block;
+            margin-top: 2vw;
+            cursor: pointer;
+            @include tablet {
+                margin-left: -10px;
+                margin-top: 0;
+            }
+            @include tablet {
+            }
+        }
+    }
+    .area {
+        width: 33%;
+    }
+}
+//****sc-introduce
+
+// sc-projects
+.sc-projects {
+    padding: 0 20px;
+    margin-top: 12vw;
+
+    .title {
+        // display: block;
+        // overflow: hidden;
+        padding-left: 0;
+        @include tablet {}
+    }
+    .text-box {
+        padding-bottom: 1vw;
+        @include tablet {}
+        .normal {
+            font-size: 11vw;
+            line-height: 1.3;
+            @include mobile {
+                font-size: 45px;
+                line-height: 45px;
+            }
+            &.txt1 {
+                display: block;
+                overflow: hidden;
+                margin-top: -2vw;
+                margin-left: 16vw;
+                @include mobile {}
+            }
+            &.txt2 {
+                display: block;
+                overflow: hidden;
+                text-align: left;
+                margin-top: -4vw;
+                margin-left: 22vw;
+                margin-bottom: -3vw;
+                @include mobile {
+                    margin-top: 0;
+                    margin-bottom: 1vw;
+                }
+            }
+        }
+        .bold {
+            overflow: hidden;
+            display: block;
+            font-size: 9vw;
+            line-height: 1.3;
+            margin-left: 5vw;
+            @include mobile {
+                margin-top: -2vw;
+            }
+        }
+    }
+
+    .group-pr {
+        display: flex;
+        @include tablet {
+            display: block;
+        }
+        .title-box {
+            display: flex;
+        }
+        .group-left {
+            padding-right: 10px;
+            @include br-r;
+            @include tablet {
+                border-right: none;
+                padding-right: 0;
+            }
+            .project-item {
+                padding-right: 5px;
+                @include tablet {
+                    padding-right: 0;
+                    padding-left: -10px;
+                    width: 100%;
+                }
+
+                .img-box {
+                    height: 40vw;
+                    overflow: hidden;
+                    @include tablet {
+                        width: 100%;
+                        height: 60vw;
+                    }
+                    a {
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        img {
+                            overflow: hidden;
+                            width: 100%;
+                            height: 120%;
+                            transform: scale(1.8);
+                            object-fit: cover;
+                            @include tablet {}
+                        }
+                    }
+                    &.item01 {
+                        margin-bottom: 25vw;
+                        @include tablet {
+                            margin-bottom: 4vw;
+                        }
+                    }
+                    &.item02 {
+                        @include tablet {
+                            margin-bottom: 4vw;
+                        }
+                    }
+                }
+            }
+        }
+
+        .group-right {
+            padding-left: 10px;
+            margin-top: 29vw;
+            @include tablet {
+                margin-top: 4vw;
+                padding-left: 0;
+            }
+            .project-item {
+                padding-left: 10px;
+                @include tablet {
+                    padding-left: 0;
+                }
+                .img-box {
+                    height: 46vw;
+                    overflow: hidden;
+                    @include tablet {
+                        height: 60vw;
+
+                    }
+                    > a {
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        img {
+                            width: 100%;
+                            height: 120%;
+                            transform: scale(1.8);
+                            object-fit: cover;
+                        }
+                    }
+                    &.item03 {
+                        margin-bottom: 24vw;
+                        @include tablet {
+                            margin-bottom: 5vw;
+                        }
+                    }
+                    &.item04 {
+                        @include tablet {
+                            margin-bottom: 5vw;
+                        }
+                    }
+                }
+            }
+            .btn-link.more {
+                margin-top: 2vw;
+                cursor: pointer;
+                @include tablet {
+                    margin-top: 0;
+                }
+                @include mobile {
+                    font-size: 3.5vw;
+                    line-height: 1.1;
+                    margin-left: 0px;
+                }
+            }
+        }
+        .title-box {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1vw;
+            @include br-t;
+            padding-top: 1vw;
+            &.top {
+                border: none;
+                margin-top: -1vw;
+            }
+        }
+        .imb-box {}
+    }
+}
+
+// sc-vervice
+.sc-service {
+    margin-top: 8vw;
+    padding: 0 20px;
+    @include tablet {}
+    .title {
+        // display: block;
+        // overflow: hidden;
+        @include mobile {
+            margin-bottom: 25px;
+        }
+    }
+    .text-box {
+        font-size: 11vw;
+        padding: 0 -10px;
+        @include tablet {}
+        .normal {
+            display: block;
+            @include mobile {
+                font-size: 45px;
+                line-height: 45px;
+            }
+            &.txt1 {
+                display: block;
+                overflow: hidden;
+                margin-top: -3vw;
+                margin-left: 20vw;
+                line-height: 1.3;
+                @include mobile {
+                    margin-left: 0;
+                }
+            }
+            &.txt2 {
+                display: block;
+                overflow: hidden;
+                margin-top: -5vw;
+                margin-left: 5vw;
+                line-height: 1.3;
+                @include mobile {
+                    margin-left: 10vw;
+                    margin-top: -3vw;
+                    line-height: 1;
+
+                }
+            }
+        }
+        .bold {
+            display: block;
+            &.txt3 {
+                display: block;
+                overflow: hidden;
+                margin-top: -4.5vw;
+                margin-left: 40vw;
+                font-size: 10vw;
+                @include mobile {
+                    font-size: 35px;
+                    line-height: 35px;
+                    margin-top: -1vw;
+                    margin-bottom: 3vw;
+                }
+            }
+        }
+    }
+    .line {
+        &.line1 {
+            width: 0;
+        }
+    }
+    .group-flex {
+        display: flex;
+        width: 100%;
+        @include tablet {
+            display: block;
+        }
+        .sub-title {
+            margin-top: 1vw;
+            width: 65%;
+            height: 28vh;
+            @include tablet {
+                width: 100%;
+                display: block;
+                height: 100%;
+            }
+            @include mobile {
+                font-size: 12.6px;
+                line-height: 16.8px;
+            }
+            &.box {
+                @include tablet {
+                    display: none;
+                }
+            }
+        }
+        .list-wrap {
+            width: 100%;
+        }
+        .flex-wrap {
+            margin-top: 1vw;
+            flex-shrink: 1;
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+        }
+        .sub-item {
+            display: flex;
+            @include tablet {
+                display: flex;
+            }
+        }
+        .work-item {
+            width: 100%;
+            @include tablet {
+                font-size: 48px;
+                line-height: 48px;
+                width: 100%;
+                display: block;
+                margin-bottom: 12vw;
+            }
+            @include mobile {
+                font-size: 28px;
+                line-height: 28px;
+                letter-spacing: -0.03em;
+
+            }
+
+        }
+        .work-num {
+            width: 8%;
+            text-align: right;
+            justify-content: flex-end;
+            @include tablet {
+                font-size: 18px;
+                line-height: 24px;
+            }
+            @include mobile {
+                font-size: 12.6px;
+                line-height: 16.8px;
+            }
+
+        }
+        // .link.info {
+        //     padding: 0.6vw 3vw;
+        //     margin-top: 2vw;
+        //     border: 1px solid #4e4e4e;
+        //     border-radius: 200px;
+        //     transition: opacity 0.45s cubic-bezier(0.25,1,0.33,1),transform 0.45s cubic-bezier(0.25,1,0.33,1),border-color 0.45s cubic-bezier(0.25,1,0.33,1),color 0.45s cubic-bezier(0.25,1,0.33,1),background-color 0.45s cubic-bezier(0.25,1,0.33,1),box-shadow 0.45s cubic-bezier(0.25,1,0.33,1);
+        //     &:hover {
+        //         background-color: #fff;
+        //     }
+        //     @include tablet {
+        //         display: inline-block;
+        //     }
+        // }
+        &.btn-box {
+            height: 10vh;
+            // @include mobile {
+            //     font-size: 3.5vw;
+            //     line-height: 1.1;
+            //     margin-left: 0px;
+            // }
+        }
+    }
+}
+//******sc-service
+
+//sc-sns
+.sc-sns {
+    margin-top: 12vw;
+    padding: 0 20px;
+    margin-bottom: 24vw;
+    .title {
+        margin-bottom: 1vw;
+        @include tablet {
+            padding-bottom: 2vw;
+        }
+        >img{display: inline-block;}
+    }
+    .bg-wrap {
+        margin-top: 1vw;
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 20px;
+        .img-box {
+            scale: 0.5;
+            opacity: 0;
+            img {
+                background-size: cover;
+                height: 30vw;
+                width: 100%;
+                @include tablet {
+                    height: 80vw;
+                }
+            }
+            &.bg01 {
+                width: 42%;
+                @include tablet {
+                    width: 100%;
+                }
+            }
+            &.bg02 {
+                width: 33%;
+                @include tablet {
+                    display: none;
+                }
+            }
+            &.bg03 {
+                width: 25%;
+                @include tablet {
+                    display: none;
+                }
+            }
+        }
+    }
+    .account-box {
+        display: block;
+        padding-left: 0.45em;
+        font-size: 11vw;
+        line-height: 1.1em;
+        color: #fff;
+        font-family: prgothic;
+        margin-top: -22vw;
+        display: flex;
+        flex: 0 0 auto;
+        overflow: hidden;
+
+        @include tablet {
+            transform: translateY(-200%);
+        }
+        .account-text {
+            a {}
+        }
+        @include tablet {
+            margin-bottom: 25vw;
+        }
+
+    }
+}
+
+//sc-others
+.sc-others {
+    padding: 0 20px;
+    .others-wrap {
+        display: flex;
+        @include tablet {
+            display: block;
+        }
+    }
+
+    .title {
+        margin-top: 1vw;
+        width: 42%;
+        @include tablet {
+            display: block;
+            width: 100%;
+        }
+    }
+    .other-item {
+        width: 58%;
+        padding-bottom: 10vw;
+        box-sizing: border-box;
+        margin-bottom: 7px;
+        @include tablet {
+            display: block;
+        }
+        a {
+            font-size: 9vw;
+            line-height: 1.1em;
+            letter-spacing: -0.1em;
+            display: inline-block;
+            transition: all 0.3s;
+            &:hover {
+                opacity: 0.8;
+            }
+            @include mobile {
+                font-size: 35px;
+                padding: 0 3px;
+            }
+        }
+
+    }
+    @include tablet {
+        display: block;
+    }
+}

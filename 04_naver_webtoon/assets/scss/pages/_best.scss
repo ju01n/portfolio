@@ -1,0 +1,153 @@
+.sc-today {
+    .part {
+        
+        padding: 14px 0 10px 16px;
+    }
+}
+
+.sc-best {
+    .sort-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 12px 8px 2px;
+    }
+    .best-sort {
+        display: inline-block;
+        .sort {
+            position: relative;
+            display: block;
+            float: left;
+            padding: 5px 9px 4px 8px;
+            border: 0;
+            background: none;
+            font-size: 13px;
+            font-weight: 500;
+            color: #999;
+            line-height: 15px;
+            &.active{color:#000;}
+        }
+    }
+    .btn-look {
+        padding-right: 0;
+    }
+
+    .best-toon {
+        .best-item {
+            padding: 8px 16px;
+            border-bottom: 1px solid #f2f2f2;
+            &:last-child {
+                border: none;
+            }
+            a {
+                display: block;
+                height: 100%;
+                display: flex;
+            }
+            .img-box {
+                overflow: hidden;
+                width: 111px;
+                height: 90px;
+                margin-right: 12px;
+                border-radius: 2px;
+            }
+            .info-box {
+                .title {
+                    padding-left: 0;
+                    display: block;
+                }
+                .writer {
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    display: block;
+                    margin: 3px 0 0 1px;
+                    font-size: 12px;
+                    line-height: 15px;
+                    color: #999;
+                }
+                .desc {
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    display: block;
+                    margin-top: 4px;
+                    font-size: 13px;
+                    color: #999;
+                }
+                .sub {
+                    display: flex;
+                    margin-top: 10px;
+                }
+                .score {
+                    display: inline-block;
+                    margin: 0 7px 0 -2px;
+                    font-size: 12px;
+                    color: #ff3a46;
+                    display: block;
+                    line-height: 12px;
+                    &::before {
+                        display: inline-block;
+                        content: '';
+                        background-position: -318px -70px;
+                        width: 12px;
+                        height: 12px;
+                        margin-right: 2px;
+                    }
+                }
+                .date {
+                    font-size: 12px;
+                    color: #999;
+                    line-height: 12px;
+                    margin-top: 2px;
+                }
+            }
+        }
+    }
+    .pagination {
+        padding: 12px 0;
+        text-align: center;
+        .btn {
+            display: inline-block;
+            overflow: hidden;
+            width: 26px;
+            height: 20px;
+            border: 1px solid #eee;
+            border-radius: 2px;
+            background-color: transparent;
+            vertical-align: top;
+            &.prev {
+                &::before {
+                    display: inline-block;
+                    content: '';
+                    background-position: -298px 0;
+                    width: 18px;
+                    height: 18px;
+                    margin-left: 1px;
+                    margin-top: 1px;
+                }
+            }
+            &.next {
+                &::before {
+                    background-position: -298px -40px;
+                    width: 18px;
+                    height: 18px;
+                    margin-right: 1px;
+                    display: inline-block;
+                    content: '';
+                }
+            }
+        }
+        .page {
+            display: inline-block;
+            padding: 0 37px;
+            font-size: 12px;
+            line-height: 24px;
+            color: #191c1c;
+            .total {
+                color: #999;
+            }
+        }
+
+    }
+}
