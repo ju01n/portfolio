@@ -1,0 +1,151 @@
+/* 누구나 쓸 수 있는 공통 소스를 여기다가 씁니다.*/
+
+body{font-size: 12px;
+    min-width: 1190px;
+    line-height: 16px;
+    color: #202020;
+    font-family: -apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+    /* 폰트가 없다면 그 다음~ 그 다음~ 그 다음(보험!) 
+    sans-seirf : 고딕체
+    serif: 궁서체 */
+}
+
+
+.wrapper{
+    min-width: 1190px;
+}
+
+
+.blind{position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); margin: -1px;
+}
+
+/* 이미지 효과 */
+.thumb-bd{ display: block; /*block있어야 감싸줄 수 있음*/ position: relative; }
+.thumb-bd::after{content: '';position: absolute; top: 0; left: 0; right: 0; bottom: 0; border:  1px solid #000; opacity: 0.1;} /* 능지처참.. */
+
+/* 스프라이트이미지 1 */
+.header .logo a,
+.header .search-area .btn-submit::before,
+.header .service-area a::after,
+.header .gnb-area .gnb-item .mail::before,
+.sc-news .group-issue .link-media::after,
+.sc-news .group-title .set-area .btn-set::after,
+.sc-news .group-title .link-title::before,
+.sc-news .group-title .link-title::after,
+.column-right .sub-area .link-join::before,
+.column-right .sub-area .link-id::before,
+.sidenews .navi .btn-nav::after,
+.sc-news .group-title .sort-area .btn-sort.active::after,
+.sc-recipe .group-des .btn-themeset::before,
+.sc-recipe .group-list3 .play-btn::after,
+.sc-recipe .funding-title::after,
+.btn-more,
+.footer .notice-area .view-all::after,
+.header .gnb-area .btn-gnb-more::after,
+.sc-recipe .group-list3 .post-title>a::after,
+.column-right .sc-login .link-login::before,
+.header .gnb-area .gnb-item::before,
+.header .gnb-area .gnb-item.live > a::after,
+.ic-inven
+{
+    background-image: url(../images/sp-bg.png);
+    background-size: 457px;
+    background-repeat: no-repeat;
+}
+/* 스프라이트이미지 2 */
+.sc-shop .shop-title>a::before,
+.sc-shop .shop-title>a::after,
+.sc-shop .navi .btn-nav::after,
+.sc-shop .shop-page .navi .btn-nav::after,
+.sc-shop .group-cate .navi .btn-nav::after,
+.sc-shop .group-news .group-page .navi .btn-nav::after,
+.sc-shop .deal-area .link-plus::after,
+.sc-shop .thumb-list .img-left .ic-plus,
+.sc-shop .thumb-list .img-right::before{
+    background-image: url(../images/sp-bg02.png);
+    background-size: 107px 101px;
+    background-repeat: no-repeat;
+}
+/* 스프라이트이미지 3 (날씨영역)*/
+.header .wheather-area .wheather-now::before{
+    background-image: url(../images/sp-bg03.png);
+    background-size: 215px 185px;
+    background-repeat: no-repeat;
+}
+/*스프라이트 이미지4 */
+.header .wheather-area .degree-max::after,
+.btn-play::after{
+    background-image: url(../images/sp-bg04.png);
+    background-size: 457px;
+    background-repeat: no-repeat;
+}
+/* recipe 부분 공통요소 */
+.title{
+    font-weight: bold;
+    display: block;
+}
+.sc-recipe .group-list2{
+    border-top: 1px solid #e4e8eb;
+}
+
+.post-theme{
+    color: #ebaa00;
+    font-weight: 700;
+    display: block;
+}
+.post-title{
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    font-size: 13px;
+}
+.post-title:hover{
+    text-decoration: underline;
+}
+.writer{
+    color: #505050;}
+.date{
+    color: #505050;
+}
+.date::before{
+    background-color: grey;
+    display: inline-block;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    vertical-align: top;
+    content: '';
+    margin: 0 5px 0 6px;
+    vertical-align: 3px;
+}
+.navi .btn-nav.prev::after{ display: inline-block; width: 5px; height: 9px; background-position: -93px -77px; background-repeat: no-repeat; vertical-align: top; content: ''; margin: 9px 12px 9px 10px;}
+.navi .btn-nav.next::after{display: inline-block; width: 5px; height: 9px; background-position: -79px -77px; background-repeat: no-repeat; vertical-align: top; content: ''; margin: 9px 10px 9px 12px;}
+.navi .btn-nav{ border: 1px solid #dae1e6; float: left; background-color: #fff; }
+
+
+.btn-play::after{ content: ''; display: inline-block; width: 24px; height: 28px; vertical-align: top; background-position: 0 -389px; }
+.time{ padding: 3px 6px; font-size: 12px; line-height: 14px; background-color: #000; border-radius: 2px; color: transparent; opacity: .7; position: absolute; }
+.running{ position: relative; z-index: 1; color: #fff; }
+
+.sc-shop .page-area{ line-height: 29px; }
+.sc-shop .now{ font-weight: bold; margin-right: 4px; color: #202020; }
+.sc-shop .total{ color: grey; }
+
+.ic-inven a{display: block; height: 100%;}
+.ic-inven.prev{
+    display: inline-block; width: 40px; height: 40px; 
+    background-position: -128px -345px; vertical-align: top; content: ''; 
+    position: absolute;
+}
+
+.sc-recipe .ic-inven.next{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-position: -86px -345px;
+    vertical-align: top;
+    content: '';
+    position: absolute;
+}
